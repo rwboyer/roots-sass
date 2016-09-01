@@ -13,6 +13,7 @@
     "marked": "0.3.x",
     "node-sass": "^3.8.0",
     "postcss": "^5.0.21",
-    "roots": "^5.0.0"
+    "roots": "^5.0.0",
+    "roots-records": "^0.5.1"
   }
 }

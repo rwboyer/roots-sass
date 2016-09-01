@@ -1,6 +1,9 @@
 autoprefixer = require 'autoprefixer'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
+records = require 'roots-records'
+
+events_url = 'https://www.bikereg.com/api/search'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
@@ -8,7 +11,8 @@ module.exports =
   extensions: [
     js_pipeline(manifest: './assets/js/manifest.yml'),
     #js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.scss', out:'css/site.css')
+    css_pipeline(files: 'assets/css/*.scss', out:'css/site.css'),
+    records(events: {url: events_url, path: 'MatchingEvents'})
   ]
 
   scss:
