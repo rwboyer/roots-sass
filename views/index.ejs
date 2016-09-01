@@ -1,0 +1,92 @@
+<html>
+  <%- include _head.ejs %>
+	<body>
+	  <%- include _site-msg.ejs %>
+	  <%- include _nav.ejs %>
+  	<section class="main">
+  	  <% var bg= '\'/images/bike-hero.png\''; %>
+    	<% include _hero.ejs %>
+    	
+    	<section id="mission">
+      	<section class="content">
+        	<p>Off the Eaten Path is a series of road cycling events in the Shenandoah Valley of Virginia that pairs our passion for riding bikes with our love of local food and drink. When ridden consecutively, each ride increases incrementally in mileage, culminating with a century (100-ish) mile) ride at the end of the season featuring multiple stops to rest, eat, drink and enjoy life with your riding mates.</p>
+        	<p>Join us for one, several or all of our events this year, each starting and finishing at one of the valley’s finest local farms or vineyards. All events include a pleasantly challenging group ride of varying distance followed by an authentic farm-to-fork supper prepared by local caterer <a href="https://www.facebook.com/tastefoodcompany/" target="_blank">Taste. A Food Company.</a> Each meal is made from fresh, local ingredients and paired with our favorite local beverages. </p>
+        	<h3>GET INDIVIDUAL EVENT DETAILS DOWN BELOW</h3>
+      	</section>
+    	</section>
+      	
+      <section id="sign-up">
+        <section class="content">
+          <h3>Sign up to receive emails about upcoming events</h3>
+          <form onSubmit="return handle_mailchimp()">
+            <div id="contact-contain">
+              <input type="text" name="first-name" id="first-name" placeholder="First Name">
+              <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+              <input type="text" name="email" id="email" placeholder="Email">
+              <button type="submit" id="submit-button">Sign Up</i></button>
+            </div>
+          </form>
+        </section>
+      </section>
+      
+      <section id="countdown">
+        <h3>The Next Event Is In</h3>
+        <script>                                        
+        </script>      
+      </section>
+      
+      <section id="upcoming-events">
+        <section class="content">
+          <h3>Upcoming Events</h3>
+          <ul class="upcoming">
+            <li class="event-info">
+              <h1>Showalter's Orchard & Greenhouse</h1>
+              <p>Timberville, VA</p>
+              <p>25/50 Miles</p>
+              <h2>Saturday October 1, 2016</h2>
+            </li>
+            <li class="event-action">
+              <div class="center">
+                <div class="event-cost">
+                  <p>$95/Individual</p>
+                  <p>$175/Couple</p>
+                </div>
+                <div class="event-buttons">
+                  <a href="/events/honeyville-rd-de-10-01-16/"><button>Details</button></a>
+                  <a href="https://www.bikereg.com/off-the-eaten-path"><button>Register</button></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="farm">
+        <section class="content">
+          	<h3>$5 from every registration is donated to:</h3>
+          	<a href="http://www.farmtoconsumer.org" target="_blank"><img src="/images/farm-logo.png"></a>
+          	<p>Defending the rights and broadening the freedoms of family farms and protecting consumer access to raw milk and nutrient dense foods.</p>
+        </section>
+      </section>
+      
+     <ul class="farm-grid">
+        <li class="farm-item" style="background-image: url('/images/front-gallery/showalters4.jpg')"><a href="/images/front-gallery/showalters4.jpg" rel='color-box-grid'></a></li>
+        <li class="farm-item" style="background-image: url('/images/front-gallery/Shen%20Val.jpg')"><a href="/images/front-gallery/Shen%20Val.jpg" rel='color-box-grid'></a></li>
+        <li class="farm-item" style="background-image: url('/images/front-gallery/IMG_2760.jpg')"><a href="/images/front-gallery/IMG_2760.jpg" rel='color-box-grid'></a></li>
+        <li class="farm-item" style="background-image: url('/images/front-gallery/Joel-Salatin-Pigs.jpg')"><a href="/images/front-gallery/Joel-Salatin-Pigs.jpg" rel='color-box-grid'></a></li>
+        <li class="farm-item" style="background-image: url('/images/front-gallery/24115100321_d72d46f1bb_c.jpg')"><a href="/images/front-gallery/24115100321_d72d46f1bb_c.jpg" rel='color-box-grid'></a></li>
+        <li class="farm-item" style="background-image: url('/images/front-gallery/11947799_889819397752099_1135430077494260694_o-1.jpg')"><a href="/images/front-gallery/11947799_889819397752099_1135430077494260694_o-1.jpg" rel='color-box-grid'></a></li>
+      </ul>
+      
+      <section id="jsx"></section>
+      
+    <%- include _footer.ejs %>
+
+  	</section> <!-- main -->
+  	
+  	<%- include _contact-modal.ejs %>
+  	<%- include _youtube-modal.ejs %>
+  	<%- include _signup-modal.ejs %>
+  	
+	</body>
+</html>

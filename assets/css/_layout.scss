@@ -182,7 +182,7 @@ nav.side{
   //height: 100%;
   padding-top: 4rem;
   #mission{
-    background: url('/assets/images/orange-bg.png') no-repeat;
+    background: url('/images/orange-bg.png') no-repeat;
     background-size: cover ; 
     background-position: center ;
     color: white;
@@ -230,7 +230,7 @@ nav.side{
   }
   #countdown{
     //height: 25rem;
-    background: url('/assets/images/mountains.jpg')  no-repeat fixed center;
+    background: url('/images/mountains.jpg')  no-repeat fixed center;
     text-align: center;
     padding: 2rem;
     color: white;
@@ -305,7 +305,7 @@ nav.side{
     }
   }
   #event-location{
-    background-image: url('/assets/images/honeyville-location.jpg');
+    background-image: url('/images/honeyville-location.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center bottom;
@@ -514,7 +514,7 @@ button{
   align-items: stretch;
   .offset-big{
     flex-basis: 66.666%;
-    background-image: url('/assets/images/slideshow6.jpg');
+    background-image: url('/images/slideshow6.jpg');
     background-size: cover;
     background-position: center center;
     @media(max-width: 800px){
@@ -523,7 +523,7 @@ button{
   }
   .offset-small{
     flex-basis: 33.333%;
-    background-image: url('/assets/images/SarahandShannon2.jpg');
+    background-image: url('/images/SarahandShannon2.jpg');
     background-size: cover;
     background-position: center center;
     @media(max-width: 800px){

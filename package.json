@@ -5,6 +5,8 @@
     "autoprefixer": "^6.3.6",
     "coffee-script": "1.x",
     "css-pipeline": "0.3.x",
+    "ejs": "^2.5.1",
+    "handlebars": "^4.0.5",
     "jade": "1.x",
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "1.x",
