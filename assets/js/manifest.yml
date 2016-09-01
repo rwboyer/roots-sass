@@ -1,6 +1,8 @@
 #manifest.yml
 - ../../bower_components/jquery/dist/jquery.js
 - ../../bower_components/jquery-colorbox/jquery.colorbox.js
-#- /bower_components/jquery/dist/jquery.js
+- ../slick-circular/js/jquery.knob.js
+- ../slick-circular/js/jquery.throttle.js
+- ../slick-circular/js/jquery.classycountdown.js
 - src/*.js
 - main.coffee
