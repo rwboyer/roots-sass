@@ -6,7 +6,7 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
 
   extensions: [
-    js_pipeline(manifest: 'assets/js/manifest.yml'),
+    js_pipeline(manifest: './assets/js/manifest.yml'),
     #js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.scss', out:'css/site.css')
   ]
