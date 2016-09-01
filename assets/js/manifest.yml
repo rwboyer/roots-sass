@@ -1,0 +1,6 @@
+#manifest.yml
+- ../../bower_components/jquery/dist/jquery.js
+- ../../bower_components/jquery-colorbox/jquery.colorbox.js
+#- /bower_components/jquery/dist/jquery.js
+- src/*.js
+- main.coffee
